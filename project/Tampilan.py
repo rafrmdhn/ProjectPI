@@ -10,7 +10,7 @@ class Tampilan:
   x = 0
   bayar = 0 
   a = ''
-  appearance = ["Mobil Ambulans Umum\t\t\tRp. 500.000", "Mobil Ambulans Gabungan\t\tRp. 1.000.000\n"]  
+  appearance = ["Mobil Ambulans Umum\t\t\tRp. 500.000", "Mobil Ambulans Gabungan\t\tRp. 1.000.000"]  
   def Awal():
     print("Penyewaan Ambulans")
     print("Mencari Rumah Sakit Terdekat Berdasarkan")
