@@ -1,5 +1,7 @@
-import Tampilan 
 from inputdata import inputdata
+import Tampilan 
+import AmbulanceTersedia
+
 
 def RentAmbulance():
   # Dapatkan input jenis mobil ambulans yang dipilih 
@@ -15,3 +17,4 @@ def RentAmbulance():
   else:
       print("Jenis mobil ambulans tidak valid")        
       print("pilihan invalid masukkan pilihan hanya 1 / 2!")
+      AmbulanceTersedia.AmbulanceTersedia()
