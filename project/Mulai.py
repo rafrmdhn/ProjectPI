@@ -21,14 +21,14 @@ def Mulai():
               print()
       if (jmlh == 0):
         print("Tidak ada dalam database\n")
-        input("Press ENTER to continue\n")
+        input("Tekan ENTER untuk melanjutkan!\n")
         Mulai()
       rs = int(input("Masukkan pilihan Rumah Sakit : "))
       if (rs < n):
         AmbulanceTersedia.AmbulanceTersedia()
       else :
         print("Pilihan Rumah Sakit Tidak Tersedia")
-        input("Press ENTER to continue\n")
+        input("Tekan ENTER untuk melanjutkan!\n")
         Mulai()
   elif (pilihan == 2):
     prov = input("Masukkan Kabupaten/Kota : ").upper()
@@ -43,16 +43,16 @@ def Mulai():
           print()
     if (jmlh == 0):
         print("Tidak ada dalam database\n")
-        input("Press ENTER to continue\n")
+        input("Tekan ENTER untuk melanjutkan!\n")
         Mulai()
     rs = int(input("Masukkan pilihan Rumah Sakit : "))
     if (rs < n):
       AmbulanceTersedia.AmbulanceTersedia()
     else :
       print("Pilihan Rumah Sakit Tidak Tersedia")
-      input("Press ENTER to continue\n")
+      input("Tekan ENTER untuk melanjutkan!\n")
       Mulai()
   else:
     print("Pilihan invalid masukkan pilihan hanya 1 / 2!")
-    input("Press ENTER to continue\n")
+    input("Tekan ENTER untuk melanjutkan!\n")
     Mulai()
