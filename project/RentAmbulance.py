@@ -5,7 +5,7 @@ import AmbulanceTersedia
 
 def RentAmbulance():
   # Dapatkan input jenis mobil ambulans yang dipilih 
-  ambulance = int(input("Masukkan jenis mobil ambulans (1/2): "))    
+  ambulance = int(input("\nMasukkan jenis mobil ambulans (1/2): "))    
   if (ambulance == 1):
       ambulance_type = "Mobil Ambulans Umum"
       Tampilan.Tampilan.ambulance_rate = 500000
