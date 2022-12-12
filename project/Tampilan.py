@@ -8,6 +8,7 @@ class Tampilan:
   date = 0
   ambulance_rate = 0
   x = 0
+  mobil = 0
   bayar = 0 
   a = ''
   appearance = ["Mobil Ambulans Umum\t\t\tRp. 500.000", "Mobil Ambulans Gabungan\t\tRp. 1.000.000"]  
